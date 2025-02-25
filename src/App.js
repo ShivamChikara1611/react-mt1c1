@@ -34,7 +34,7 @@ class App extends Component {
   }
 
   loadingView = () => (
-    <div testid="loader" className="loader-con">
+    <div data-testid="loader" className="loader-con">
       <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
     </div>
   )
